@@ -1,0 +1,9 @@
+# Auto-detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Force binary for images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg text
+*.ico binary
