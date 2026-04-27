@@ -34,10 +34,10 @@ export function ProductModal({ item, onClose, onAdd }: ProductModalProps) {
             ))}
           </div>
 
-          {item.colors?.length ? (
+          {item.colorNames?.length ? (
             <div className="modal__meta">
               <strong>Cores</strong>
-              <span>{item.colors.join(' · ')}</span>
+              <span>{item.colorNames.join(' · ')}</span>
             </div>
           ) : null}
 
